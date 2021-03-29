@@ -1,5 +1,5 @@
 diff --git a/arch/arm/configs/omap2plus_defconfig b/arch/arm/configs/omap2plus_defconfig
-index d38324a7b41b..d426b4e011c8 100644
+index d9d258e9cdb1..4d82160a585b 100644
 --- a/arch/arm/configs/omap2plus_defconfig
 +++ b/arch/arm/configs/omap2plus_defconfig
 @@ -4,6 +4,7 @@ CONFIG_POSIX_MQUEUE=y
