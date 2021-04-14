@@ -1,3 +1,10 @@
+droid4-linux (5.10.9-1) unstable; urgency=medium
+
+  * Update to latest droid4-pending-v5.10 from tmlind
+  * Reintroduce dma context patch.
+
+ -- Ivan J. <parazyd@dyne.org>  Wed, 14 Apr 2021 19:12:51 +0200
+
 droid4-linux (5.10.8-1) unstable; urgency=medium
 
   * Update to latest droid4-pending-v5.10 from tmlind
