@@ -5,3 +5,4 @@
 0005-enable-nl80211-testmode.patch
 0006-defconfig-enable-netfilter-masquerading.patch
 anbox-support.patch
+fbdev.patch
