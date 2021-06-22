@@ -11,7 +11,7 @@ Build and Install for Samsung Galaxy Tab 2 (7 inch only)
 - Download droid4 rootfs from https://maedevu.maemo.org/images/droid4/
 - Insert a microsd card into your computer and find the device with cat /proc/partitions
 - Decompress and write the image to your microsd card device:  `xzcat maemo-leste-VERSION.img.xz | sudo dd status=progress bs=1M of=/dev/MICROSDCARD-DEVICE`
-- Run `make modules_install=$(MOD_PATH)
+- Run `make ARCH=arm modules_install INSTALL_MOD_PATH=$(MOD_PATH)
 - copy the 5.11.0 folder from $(MOD_PATH) to /lib/modules/ in the rootfs (i.e in microsd card)
 
 3) Booting
