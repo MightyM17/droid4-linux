@@ -96,6 +96,13 @@
 		compatible = "ti,twl6030-pwmled";
 		#pwm-cells = <2>;
 	};
+	
+		ldo5: regulator-ldo5 {
+		compatible = "ti,twl6032-ldo5";
+		regulator-min-microvolt = <1800000>;
+		regulator-max-microvolt = <1800000>;
+		regulator-always-on;
+	};
 
 	gpadc {
 		compatible = "ti,twl6030-gpadc";
